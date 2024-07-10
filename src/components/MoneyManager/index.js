@@ -29,11 +29,16 @@ class MoneyManager extends Component {
   addTransaction = event => {
     event.preventDefault()
     const {title, optionId, amount} = this.state
+    const typeOption = transactionTypeOptions.find(
+      eachItem => eachItem.optionId === optionId,
+    )
+    const {displayText} = typeOption
     const newTransaction = {
       id: uuidv4(),
       title,
       optionId,
       amount,
+      displayText,
     }
     this.setState(prevState => ({
       transactionList: [...prevState.transactionList, newTransaction],
