@@ -1,0 +1,119 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-size: cover;
+  min-height: 100vh;
+}
+.top-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 18vh;
+  padding: 10px;
+  padding-left: 30px;
+}
+.top-heading {
+  font-family: 'roboto';
+  font-size: 32px;
+  color: #475569;
+  font-weight: 500;
+}
+.top-paragraph {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #475569;
+}
+.top-span {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #0b69ff;
+}
+.middle-container {
+  padding-left: 0px;
+  margin-top: 40px;
+}
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+}
+.left-form {
+  border: #7e858e 1.5px solid;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 47vh;
+  width: 37vw;
+  padding-left: 30px;
+  margin-top: 40px;
+}
+.right-form {
+  border: #7e858e 1.5px solid;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 47vh;
+  width: 50vw;
+  padding-left: 30px;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+.form-heading {
+  font-family: 'roboto';
+  font-size: 24px;
+  color: #1e293b;
+  margin-bottom: 30px;
+}
+.form-label {
+  font-size: 14px;
+  color: #7e858e;
+  font-family: 'roboto';
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.form-input {
+  height: 37px;
+  width: 230px;
+  border: #7e858e 2px solid;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.button {
+  background-color: #0b69ff;
+  height: 35px;
+  width: 60px;
+  color: white;
+  font-family: 'roboto';
+  font-size: 13px;
+  border-radius: 8px;
+  border-width: 0px;
+  margin-top: 15px;
+}
+.history-container {
+  border: #7e858e 1.5px solid;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+}
+.main-heading {
+  display: flex;
+  flex-direction: row;
+  margin-left: 23px;
+}
+.main-paragraph {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #1e293b;
+  margin-right: 40px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.line {
+  width: 100%;
+  color: #475569;
+}

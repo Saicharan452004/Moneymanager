@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.list-transaction {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+}
+.list-description {
+  font-family: 'roboto';
+  font-size: 17px;
+  color: #1e293b;
+  margin-right: 40px;
+}
+.list-delete {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+}
+.delete-button {
+  outline: none;
+  background-color: transparent;
+  border-width: 0px;
+}

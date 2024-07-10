@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.total-containers {
+  display: flex;
+  flex-direction: row;
+}
+.container-1 {
+  background-color: #ecfccb;
+  border: #84cc16 2px solid;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 15vh;
+  border-radius: 12px;
+  width: 25vw;
+  margin-right: 40px;
+}
+.container-2 {
+  background-color: #cffafe;
+  border: #06b6d4 2px solid;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 15vh;
+  border-radius: 12px;
+  width: 25vw;
+  margin-right: 40px;
+}
+.container-3 {
+  background-color: #ede9fe;
+  border: #7c3aed 2px solid;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 15vh;
+  border-radius: 12px;
+  width: 25vw;
+  margin-right: 40px;
+}
+.image-money {
+  height: 70px;
+  width: 70px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.amount-description {
+  font-family: 'roboto';
+  color: #7e858e;
+  font-size: 14px;
+  font-weight: bold;
+}
+.display-description {
+  font-family: 'roboto';
+  color: #334155;
+  font-size: 20px;
+}
